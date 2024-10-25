@@ -7,7 +7,7 @@ import CarouselImg from "../components/carouselImg";
 
 const ExperiencePage = () => {
   return (
-    <div className="py-[64px]">
+    <div className="pt-[64px]">
       <div className="relative">
         <img src={bgExperience} alt="" className="" />
         <span className="sm:text-5xl text-3xl font-semibold text-baseColor absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
@@ -22,8 +22,17 @@ const ExperiencePage = () => {
       </div>
 
       <div className="pb-12 text-center">
-        <h1 className="font-semibold">What Is?</h1>
-        <p>Pack less, explore more with Whatever.</p>
+        <h1
+          className="font-semibold"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="500"
+        >
+          What Is?
+        </h1>
+        <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
+          Pack less, explore more with Whatever.
+        </p>
       </div>
       {/* boxes */}
       <Container>
