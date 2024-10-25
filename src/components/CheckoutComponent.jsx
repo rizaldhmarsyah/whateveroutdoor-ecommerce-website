@@ -5,6 +5,7 @@ import { changeQuantity } from "../redux/slices/cartSlice";
 import { Container } from "react-bootstrap";
 
 const CheckoutComponent = (props) => {
+  // eslint-disable-next-line react/prop-types
   const { productId, quantity, price } = props.data;
   const [detail, setDetail] = useState([]);
   const dispatch = useDispatch();
