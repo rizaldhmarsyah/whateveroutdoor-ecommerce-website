@@ -4,6 +4,7 @@ import { useDispatch } from "react-redux";
 import { changeQuantity } from "../redux/slices/cartSlice";
 
 const CartItem = (props) => {
+  // eslint-disable-next-line react/prop-types
   const { productId, quantity, price } = props.data;
   const [detail, setDetail] = useState([]);
   const dispatch = useDispatch();

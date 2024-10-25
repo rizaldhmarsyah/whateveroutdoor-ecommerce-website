@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
-import { useSelector, useDispatch } from "react-redux";
+import { useDispatch } from "react-redux";
 import { addToCart } from "../redux/slices/cartSlice";
 
 const GearCart = (props) => {
+  // eslint-disable-next-line react/prop-types
   const { id, Image, title, price, slug } = props.data;
-  const carts = useSelector((store) => store.cart.items);
   const dispatch = useDispatch();
   const handleAddToCart = () => {
     dispatch(
