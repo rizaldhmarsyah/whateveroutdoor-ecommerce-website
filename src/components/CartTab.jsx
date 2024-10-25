@@ -13,7 +13,7 @@ const CartTab = () => {
 
   const navigate = useNavigate();
   const handleClickToCheckout = () => {
-    navigate("/checkout");
+    navigate("/whatever-outdoor/checkout");
   };
 
   return (

@@ -22,18 +22,24 @@ function App() {
       <CartTab />
 
       <Routes>
-        <Route path="/" Component={HomePage} />
-        <Route path="/backpack" Component={BackpackPage} />
-        <Route path="/gear" Component={GearPage} />
-        <Route path="/experience" Component={ExperiencePage} />
-        <Route path="/backpack/:slug" element={<Detail />} />
-        <Route path="/gear/:slug" element={<DetailGear />} />
-        <Route path="/authentication" element={<Authentication />} />
+        <Route path="/whatever-outdoor/" Component={HomePage} />
+        <Route path="/whatever-outdoor/backpack" Component={BackpackPage} />
+        <Route path="/whatever-outdoor/gear" Component={GearPage} />
+        <Route path="/whatever-outdoor/experience" Component={ExperiencePage} />
+        <Route path="/whatever-outdoor/backpack/:slug" element={<Detail />} />
+        <Route path="/whatever-outdoor/gear/:slug" element={<DetailGear />} />
+        <Route
+          path="/whatever-outdoor/authentication"
+          element={<Authentication />}
+        />
 
         {/* Private Pages */}
         <Route element={<PrivateRoutesLayout />}>
-          <Route path="/profile" element={<DashboardProfile />} />
-          <Route path="/checkout" element={<Checkout />} />
+          <Route
+            path="/whatever-outdoor/profile"
+            element={<DashboardProfile />}
+          />
+          <Route path="/whatever-outdoor/checkout" element={<Checkout />} />
         </Route>
       </Routes>
       <FooterComponent />

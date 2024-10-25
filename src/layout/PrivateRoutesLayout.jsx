@@ -6,7 +6,11 @@ const PrivateRoutesLayout = () => {
   return whateverAuth.currentUser ? (
     <Outlet />
   ) : (
-    <Navigate to={"/authentication"} state={{ from: location }} replace />
+    <Navigate
+      to={"/whatever-outdoor/authentication"}
+      state={{ from: location }}
+      replace
+    />
   );
 };
 
