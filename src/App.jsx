@@ -11,7 +11,6 @@ import Detail from "./pages/Detail";
 import CartTab from "./components/CartTab";
 import DetailGear from "./pages/DetailGear";
 import Authentication from "./pages/Authentication";
-import Error from "./pages/Error";
 import DashboardProfile from "./pages/DashboardProfile";
 import PrivateRoutesLayout from "./layout/PrivateRoutesLayout";
 import Checkout from "./pages/Checkout";
@@ -30,7 +29,6 @@ function App() {
         <Route path="/backpack/:slug" element={<Detail />} />
         <Route path="/gear/:slug" element={<DetailGear />} />
         <Route path="/authentication" element={<Authentication />} />
-        <Route path="*" element={<Error />} />
 
         {/* Private Pages */}
         <Route element={<PrivateRoutesLayout />}>
