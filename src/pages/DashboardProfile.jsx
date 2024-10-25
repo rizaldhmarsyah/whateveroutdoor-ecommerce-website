@@ -20,7 +20,7 @@ const DashboardProfile = () => {
     await logOut();
 
     if (!error) {
-      navigate("/");
+      navigate("/whatever-outdoor/");
     }
   };
   return (
