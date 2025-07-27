@@ -1,6 +1,6 @@
 import { useSelector } from "react-redux";
 import { useEffect, useState } from "react";
-import CheckoutComponent from "../components/checkoutComponent";
+import CheckoutComponent from "../components/CheckoutComponent";
 
 const Checkout = () => {
   const carts = useSelector((store) => store.cart.items);

@@ -3,7 +3,7 @@ import campingImg from "../assets/experience/camping.jpg";
 import hikingImg from "../assets/experience/hiking.jpg";
 import canoeImg from "../assets/experience/canoe.jpg";
 import { Container } from "react-bootstrap";
-import CarouselImg from "../components/carouselImg";
+import CarouselImg from "../components/CarouselImg";
 
 const ExperiencePage = () => {
   return (
