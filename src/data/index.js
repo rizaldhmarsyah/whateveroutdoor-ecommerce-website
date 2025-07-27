@@ -50,7 +50,7 @@ export const product = [
     Image: product2,
     title: "Tent UL Ayem 2p",
     price: 450,
-    path: "/whatever-outdoor/gear/Tent-Ayem-2p",
+    path: "/gear/Tent-Ayem-2p",
     button: "Detail / Order",
   },
   {
@@ -58,7 +58,7 @@ export const product = [
     Image: product3,
     title: "Stuff Sack 10",
     price: 80,
-    path: "/whatever-outdoorgear/Stuff-Sack-25",
+    path: "/gear/Stuff-Sack-25",
     button: "Detail / Order",
   },
   {
@@ -82,7 +82,7 @@ export const product = [
     Image: product6,
     title: "Tent UL Uasu 2p",
     price: 499,
-    path: "/whatever-outdoor/gear/Tent-Uasu-2p",
+    path: "/gear/Tent-Uasu-2p",
     button: "Detail / Order",
   },
 ];

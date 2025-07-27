@@ -18,10 +18,10 @@ import { Pagination, Autoplay } from "swiper/modules";
 const HomePage = () => {
   let navigate = useNavigate();
   const handleClickBackpack = () => {
-    navigate("/whatever-outdoor/backpack");
+    navigate("/backpack");
   };
   const handleClickGear = () => {
-    navigate("/whatever-outdoor/gear");
+    navigate("/gear");
   };
   return (
     <div className="homepage">
@@ -170,7 +170,7 @@ const HomePage = () => {
 
             <button
               className="bg-textColor text-baseColor py-2 px-3 hover:bg-gray-200 hover:text-textColor hover:font-bold transition-all sm:mt-0 mt-4"
-              onClick={() => navigate("/whatever-outdoor/gear/Tent-Wani-2p")}
+              onClick={() => navigate("/gear/Tent-Wani-2p")}
             >
               Check Product
             </button>

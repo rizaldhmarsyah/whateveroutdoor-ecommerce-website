@@ -32,7 +32,7 @@ const NavBarComponent = () => {
           <div className="flex items-center">
             <div className="flex-shrink-0">
               <a
-                href="/whatever-outdoor/"
+                href="/"
                 className="text-white no-underline text-3xl font-bold"
               >
                 whatever.
@@ -42,25 +42,25 @@ const NavBarComponent = () => {
           <div className="hidden md:block">
             <div className="ml-4 flex items-center space-x-4">
               <a
-                href="/whatever-outdoor/"
+                href="/"
                 className="text-baseColor hover:text-textColor hover:bg-baseColor rounded-lg no-underline p-2 transition-all"
               >
                 HOME
               </a>
               <a
-                href="/whatever-outdoor/backpack"
+                href="/backpack"
                 className="text-baseColor hover:text-textColor hover:bg-baseColor rounded-lg no-underline p-2 transition-all"
               >
                 BACKPACK
               </a>
               <a
-                href="/whatever-outdoor/gear"
+                href="/gear"
                 className="text-baseColor hover:text-textColor hover:bg-baseColor rounded-lg no-underline p-2 transition-all"
               >
                 GEAR
               </a>
               <a
-                href="/whatever-outdoor/experience"
+                href="/experience"
                 className="text-baseColor hover:text-textColor hover:bg-baseColor rounded-lg no-underline p-2 transition-all"
               >
                 EXPERIENCE
@@ -77,7 +77,7 @@ const NavBarComponent = () => {
               {/* Shopping Cart */}
 
               {/* Profile */}
-              <Link to={"/whatever-outdoor/profile"} className="cursor-pointer">
+              <Link to={"/profile"} className="cursor-pointer">
                 <i className="fa-regular fa-user text-2xl text-baseColor hover:text-textColor hover:bg-baseColor rounded-lg no-underline p-2 transition-all"></i>
               </Link>
               {/* Profile */}
@@ -97,7 +97,7 @@ const NavBarComponent = () => {
             </div>
 
             {/* Profile */}
-            <Link to={"/whatever-outdoor/profile"} className="cursor-pointer">
+            <Link to={"/profile"} className="cursor-pointer">
               <i className="fa-regular fa-user text-2xl text-baseColor hover:text-textColor hover:bg-baseColor rounded-lg no-underline p-2 transition-all"></i>
             </Link>
             {/* Profile */}
@@ -145,25 +145,25 @@ const NavBarComponent = () => {
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <a
-              href="/whatever-outdoor/"
+              href="/"
               className="text-yellow-50 block hover:text-black hover:bg-white rounded-lg no-underline p-2"
             >
               HOME
             </a>
             <a
-              href="/whatever-outdoor/backpack"
+              href="/backpack"
               className="text-yellow-50 block hover:text-black hover:bg-white rounded-lg no-underline p-2"
             >
               BACKPACK
             </a>
             <a
-              href="/whatever-outdoor/gear"
+              href="/gear"
               className="text-yellow-50 block hover:text-black hover:bg-white rounded-lg no-underline p-2"
             >
               GEAR
             </a>
             <a
-              href="/whatever-outdoor/experience"
+              href="/experience"
               className="text-yellow-50 block hover:text-black hover:bg-white rounded-lg no-underline p-2"
             >
               EXPERIENCE
