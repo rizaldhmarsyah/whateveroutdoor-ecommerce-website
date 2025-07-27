@@ -83,7 +83,7 @@ const NavBarComponent = () => {
               {/* Shopping Cart */}
 
               {/* Profile */}
-              <Link to={"/profile"} className="cursor-pointer">
+              <Link to={"/authentication"} className="cursor-pointer">
                 <i className="fa-regular fa-user text-2xl text-baseColor hover:text-textColor hover:bg-baseColor rounded-lg no-underline p-2 transition-all"></i>
               </Link>
               {/* Profile */}
@@ -103,7 +103,7 @@ const NavBarComponent = () => {
             </div>
 
             {/* Profile (Mobile) */}
-            <Link to={"/profile"} className="cursor-pointer">
+            <Link to={"/authentication"} className="cursor-pointer">
               <i className="fa-regular fa-user text-2xl text-baseColor hover:text-textColor hover:bg-baseColor rounded-lg no-underline p-2 transition-all"></i>
             </Link>
             {/* Profile */}
