@@ -110,7 +110,7 @@ export const backpack = [
     slug: "Bpack-UL-Uasu-55",
     desc: "Experience the freedom of the trails with our ultralight hiking backpack. Designed for speed and comfort, this pack is made with premium materials and an ergonomic design to ensure a comfortable carry.",
     weight: "16.5 oz",
-    available: "In stock, ready to ship",
+    availabsle: "In stock, ready to ship",
   },
   {
     id: 3,
